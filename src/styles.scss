@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.delete-book .tooltip-inner{
+    background-color: #dc3545;
+}
+
+.delete-book.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #dc3545;
+}
+.delete-book.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: #dc3545;
+}
+.delete-book.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #dc3545;
+}
+.delete-book.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #dc3545;
+}
+
+.modify-book .tooltip-inner{
+    background-color: #198754;
+}
+
+.modify-book.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #198754;
+}
+.modify-book.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: #198754;
+}
+.modify-book.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #198754;
+}
+.modify-book.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #198754;
+}

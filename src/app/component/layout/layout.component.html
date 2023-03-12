@@ -1,0 +1,2 @@
+<app-header (sortBook)="sortBook($event)"[author]="authorDetails"></app-header>
+<app-booksdetails (deleteBook)="deleteBook($event)" [authorBooks]="authorDetails?.books"></app-booksdetails>
